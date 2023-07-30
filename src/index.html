@@ -286,19 +286,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
                     <form>
-                        <div class="mb-2">
+                        <div class="mb">
                             <label class="form-label" for="exampleInputEmail1">Email address</label>
                             <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1"
                                    name="email"
                                    type="email">
                         </div>
-                        <div class="mb-2">
+                        <div class="mb">
                             <label class="form-label" for="exampleInputPassword1">Password</label>
                             <input class="form-control" id="exampleInputPassword1" name="password" type="password">
                         </div>
-                        <div class="mb-4 form-check">
+                        <div class="mb-2 form-check">
                             <input class="form-check-input" id="exampleCheck1" type="checkbox">
                             <label class="form-check-label" for="exampleCheck1">Remember me</label>
                         </div>
@@ -347,6 +347,55 @@
                         revealed when the user activates the relevant trigger.
                     </div>
                 </div>
+            </div>
+            <div class="col-12">
+                <table class="table table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">номер</th>
+                        <th scope="col">название</th>
+                        <th scope="col">цена</th>
+                        <th scope="col">количество</th>
+                        <th scope="col">итоговая сумма</th>
+                        <th scope="col">статус</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Iphone 14</td>
+                        <td>89.000</td>
+                        <td>10</td>
+                        <td>890.000</td>
+                        <td class="bg-primary" role="alert">новый
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Iphone 14 Pro</td>
+                        <td>99000</td>
+                        <td>20</td>
+                        <td>1.980.000</td>
+                        <td class="bg-warning" role="alert">обработка
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Iphone 14 Pro Max</td>
+                        <td>110000</td>
+                        <td>30</td>
+                        <td>3.300.000</td>
+                        <td class="bg-success" role="alert">обработка
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Samsung Galaxy s22</td>
+                        <td>90.000</td>
+                        <td>10</td>
+                        <td>900.000</td>
+                        <td class="bg-danger" role="alert">отменен
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
     </div>
